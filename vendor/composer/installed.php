@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '972cd91b1a6f23e9799919826d47cb526bfce40c',
+        'reference' => '82846f249eab2bdd1369c7db92938d5ce7357ee4',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '972cd91b1a6f23e9799919826d47cb526bfce40c',
+            'reference' => '82846f249eab2bdd1369c7db92938d5ce7357ee4',
             'dev_requirement' => false,
         ),
         'doctrine/annotations' => array(
@@ -343,8 +343,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache-implementation' => array(
@@ -706,6 +706,15 @@
             'aliases' => array(),
             'reference' => 'b432c57c5de73634b1859093c1f58e3cd84455a1',
             'dev_requirement' => false,
+        ),
+        'symfony/maker-bundle' => array(
+            'pretty_version' => 'v1.48.0',
+            'version' => '1.48.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfony/maker-bundle',
+            'aliases' => array(),
+            'reference' => '2e428e8432e9879187672fe08f1cc335e2a31dd6',
+            'dev_requirement' => true,
         ),
         'symfony/messenger' => array(
             'pretty_version' => 'v5.4.16',
